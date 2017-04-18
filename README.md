@@ -1,7 +1,10 @@
-# test coverage for  [micro (v7.3.1)](https://github.com/zeit/micro#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-micro.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-micro) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-micro.svg)](https://travis-ci.org/npmtest/node-npmtest-micro)
+# npmtest-micro
+
+#### test coverage for  [micro (v7.3.2)](https://github.com/zeit/micro#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-micro.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-micro) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-micro.svg)](https://travis-ci.org/npmtest/node-npmtest-micro)
+
 #### Asynchronous HTTP microservices
 
-[![NPM](https://nodei.co/npm/micro.png?downloads=true)](https://www.npmjs.com/package/micro)
+[![NPM](https://nodei.co/npm/micro.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/micro)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-micro/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-micro/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-micro/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-micro/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-micro/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-micro/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-micro/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-micro/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-micro/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-micro/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-micro%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-micro/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-micro/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-micro/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-micro/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-micro%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-micro/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-micro/build/test-report.html](https://npmtest.github.io/node-npmtest-micro/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-micro/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-micro/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-micro/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-micro/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-micro/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-micro/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-micro/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Zeit, Inc.",
-        "email": "team@zeit.co"
+        "name": "Zeit, Inc."
     },
     "bin": {
         "micro": "./bin/micro.js"
@@ -37,7 +45,7 @@
         "url": "https://github.com/zeit/micro/issues"
     },
     "dependencies": {
-        "args": "2.4.2",
+        "args": "2.6.0",
         "async-to-gen": "1.3.2",
         "bluebird": "3.5.0",
         "boxen": "1.0.0",
@@ -64,20 +72,20 @@
         "request": "2.81.0",
         "request-promise": "4.2.0",
         "resumer": "0.0.0",
-        "test-listen": "1.0.1",
+        "test-listen": "1.0.2",
         "then-sleep": "1.0.1",
         "xo": "0.18.1"
     },
     "directories": {},
     "dist": {
-        "shasum": "63cb1437fbeb462f374788b3f6dce5e8ef57e436",
-        "tarball": "https://registry.npmjs.org/micro/-/micro-7.3.1.tgz"
+        "shasum": "c6ff82fad6b045cfe04cbc673834ef1fc3dc13aa",
+        "tarball": "https://registry.npmjs.org/micro/-/micro-7.3.2.tgz"
     },
     "files": [
         "bin",
         "lib"
     ],
-    "gitHead": "f047c8287d651a9d2f6047cf4ebe598d33dcea05",
+    "gitHead": "cdd49c8725c0a06ff1870c51d526af6f3826bbc0",
     "homepage": "https://github.com/zeit/micro#readme",
     "keywords": [
         "micro",
@@ -97,17 +105,14 @@
     "main": "./lib/server.js",
     "maintainers": [
         {
-            "name": "leo",
-            "email": "mindrun@icloud.com"
+            "name": "leo"
         },
         {
-            "name": "rauchg",
-            "email": "rauchg@gmail.com"
+            "name": "rauchg"
         }
     ],
     "name": "micro",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/zeit/micro.git"
@@ -117,7 +122,7 @@
         "precommit": "lint-staged",
         "test": "npm run lint && NODE_ENV=test nyc ava"
     },
-    "version": "7.3.1",
+    "version": "7.3.2",
     "xo": {
         "ignores": [
             "examples/**/*"
