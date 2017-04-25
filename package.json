@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [micro (v7.3.2)](https://github.com/zeit/micro#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-micro.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-micro) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-micro.svg)](https://travis-ci.org/npmtest/node-npmtest-micro)",
+    "description": "#### basic test coverage for  [micro (v7.3.2)](https://github.com/zeit/micro#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-micro.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-micro) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-micro.svg)](https://travis-ci.org/npmtest/node-npmtest-micro)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "micro": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.26"
 }
